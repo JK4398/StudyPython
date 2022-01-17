@@ -1,8 +1,4 @@
 # 리스트 연산 arr arrange
-from mmap import PROT_READ
-from traceback import print_tb
-
-
 arr = list(range(8))
 print(arr)
 
