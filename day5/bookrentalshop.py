@@ -81,7 +81,18 @@ def deleteDivision(conn,division):
 if __name__ ==  '__main__':
     print('책대여점 프로그램 시작')
     scott_con = myconn()  # db 접속
-
+    # 1. divtbl에서 데이터조회
+    # print('책 장르 정보조회')
+    # getAllDataFromDivtbl(scott_con)
+    # 2. divtbl에 새로운 데이터 입력
+    # print('책 장르 정보입력')
+    # division = input('구분코드 입력:')
+    # names = input('장르명 입력:')
+    # tup = (division, names)
+    # setDataIntoDivtbl(scott_con, tup)
+    # print('정보 입력 성공')
+    # 3. membertbl에서 조회
+    # getSomeDataFromMembertbl(scott-con)
     # 4. membertbl에 새 데이터 입력
     # print('신규 회원 입력')
     # names = input('이름입력:')
